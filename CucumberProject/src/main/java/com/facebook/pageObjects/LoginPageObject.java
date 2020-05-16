@@ -9,7 +9,7 @@ public class LoginPageObject {
 	WebDriver driver;
 	
 	public void openURL(){
-		System.setProperty("webdriver.chrome.driver", "G:\\javaWorkspace\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "F:\\javaWorkspace\\chromedriver.exe");
 		driver = new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.get("https://www.facebook.com/");
