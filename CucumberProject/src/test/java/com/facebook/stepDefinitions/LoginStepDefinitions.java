@@ -44,6 +44,4 @@ public class LoginStepDefinitions extends LoginPageObject {
 	public void i_enter_first_name() throws Throwable {
 		lpo.enterFirstName();
 	}
-
-	
 }

@@ -15,7 +15,7 @@ Feature: Login Feature
     Given I am a user of facebook application.
     When I enter valid <username>
     And I enter valid Password.
-    And I enter first name
+    #And I enter first name
 
     Examples: 
       | username |
