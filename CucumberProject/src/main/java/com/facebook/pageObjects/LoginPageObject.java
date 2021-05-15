@@ -24,15 +24,11 @@ public class LoginPageObject {
 	}
 	
 	public void clickLoginButton(){
-		 driver.findElement(By.xpath("//*[@id='u_0_b']")).click();
+		 driver.findElement(By.xpath("//*[@name='login']")).click();
 	}
 	
 	public void verifyLogin(){
 		System.out.println("Logged in successfully");
-	}
-	
-	public void enterFirstName(){
-		driver.findElement(By.xpath("//*[@id='u_0_m']")).sendKeys("Shammi");
 	}
 
 }

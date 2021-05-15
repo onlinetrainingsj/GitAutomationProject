@@ -9,7 +9,7 @@ import cucumber.api.junit.Cucumber;
 @CucumberOptions(
 features = { "features" },
 glue = { "com.facebook.stepDefinitions" },
-tags = { "@Facebook" },
+tags = { "@LogIn, @SignUp" },
 monochrome = true, dryRun = false)
 
 public class TestRunner {

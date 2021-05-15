@@ -39,10 +39,5 @@ public class LoginStepDefinitions extends LoginPageObject {
 	public void user_should_be_able_to_log_in_successfully() throws Throwable {
 		lpo.verifyLogin();
 	}
-
-	@When("^I enter first name$")
-	public void i_enter_first_name() throws Throwable {
-		lpo.enterFirstName();
-	}
 	
 }

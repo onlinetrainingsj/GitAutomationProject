@@ -1,6 +1,6 @@
 @Facebook
 Feature: Login Feature
-  I want to test Login Feature of facebook application
+  I want to test Login Page of facebook application
 
   @LogIn
   Scenario: Login Scenario
@@ -19,3 +19,4 @@ Feature: Login Feature
     Examples: 
       | username |
       | Shammi   |
+      | Selenium |
