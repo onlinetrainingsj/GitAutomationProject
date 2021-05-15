@@ -19,4 +19,3 @@ Feature: Login Feature
     Examples: 
       | username |
       | Shammi   |
-      | Selenium |
